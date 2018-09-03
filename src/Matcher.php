@@ -81,9 +81,9 @@ class Matcher
         // @todo change to dynamic
         return [
             Matchers\DateMatch::class,
-            Matchers\DictionaryMatch::class,
-            Matchers\ReverseDictionaryMatch::class,
-            Matchers\L33tMatch::class,
+            #Matchers\DictionaryMatch::class,
+            #Matchers\ReverseDictionaryMatch::class,
+            #Matchers\L33tMatch::class,
             Matchers\RepeatMatch::class,
             Matchers\SequenceMatch::class,
             Matchers\SpatialMatch::class,
